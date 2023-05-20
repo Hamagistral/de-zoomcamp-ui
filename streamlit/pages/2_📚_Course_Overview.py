@@ -11,7 +11,7 @@ st.markdown("---")
 st.markdown("""## 📄 Syllabus
 
 
-#### <a href="Week_1_-_Introduction_&_Prerequisites" target='_self'>Week 1: Introduction & Prerequisites</a>
+#### <a href="Week_1_Introduction_&_Prerequisites" target='_self'>Week 1: Introduction & Prerequisites</a>
 
 * Course overview
 * Introduction to GCP
@@ -21,7 +21,7 @@ st.markdown("""## 📄 Syllabus
 * Preparing the environment for the course
 
 
-#### <a href="Week_2_-_Workflow_Orchestration" target='_self'>Week 2: Workflow Orchestration</a>
+#### <a href="Week_2_Workflow_Orchestration" target='_self'>Week 2: Workflow Orchestration</a>
 
 * Data Lake
 * Workflow orchestration
@@ -31,7 +31,7 @@ st.markdown("""## 📄 Syllabus
 * Prefect Cloud and additional resources
 
 
-#### <a href="Week_3_-_Data_Warehouse" target='_self'>Week 3: Data Warehouse</a>
+#### <a href="Week_3_Data_Warehouse" target='_self'>Week 3: Data Warehouse</a>
 
 * Data Warehouse
 * BigQuery
@@ -42,7 +42,7 @@ st.markdown("""## 📄 Syllabus
 * BigQuery Machine Learning
 
 
-#### <a href="Week_4_-_Analytics_Engineering" target='_self'>Week 4: Analytics Engineering</a>
+#### <a href="Week_4_Analytics_Engineering" target='_self'>Week 4: Analytics Engineering</a>
 
 * Basics of analytics engineering
 * dbt (data build tool)
@@ -54,7 +54,7 @@ st.markdown("""## 📄 Syllabus
 * Visualizing the data with google data studio and metabase
 
 
-#### <a href="Week_5_-_Batch_processing" target='_self'>Week 5: Batch Processing</a>
+#### <a href="Week_5_Batch_processing" target='_self'>Week 5: Batch Processing</a>
 
 * Batch processing
 * What is Spark
@@ -63,7 +63,7 @@ st.markdown("""## 📄 Syllabus
 * Internals: GroupBy and joins
 
 
-#### <a href="Week_6_-_Stream_Processing" target='_self'>Week 6: Streaming Processing</a>
+#### <a href="Week_6_Stream_Processing" target='_self'>Week 6: Streaming Processing</a>
 
 * Introduction to Kafka
 * Schemas (avro)
@@ -71,7 +71,7 @@ st.markdown("""## 📄 Syllabus
 * Kafka Connect and KSQL
 
 
-#### <a href="Week_7_-_Project" target='_self'>Week 7: Project</a>
+#### <a href="Week_7_Project" target='_self'>Week 7: Project</a>
 
 Putting everything we learned to practice
 
@@ -109,7 +109,7 @@ For this course, you'll need to have the following software installed on your co
 * Google Cloud SDK
 * Terraform
 
-See <a href="Week_1_-_Introduction_&_Prerequisites" target='_self'>Week 1</a> for more details about installing these tools
+See <a href="Week_1_Introduction_&_Prerequisites" target='_self'>Week 1</a> for more details about installing these tools
 
 > **Note:** NYC TLC changed the format of the data we use to parquet. But you can still access
 > the csv files [here](https://github.com/DataTalksClub/nyc-tlc-data).

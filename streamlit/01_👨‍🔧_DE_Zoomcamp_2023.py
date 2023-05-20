@@ -28,13 +28,13 @@ with st.expander("Sign up here"):
 st.markdown("""
 ## 📄 Syllabus
 
-##### <a href="Week_1_-_Introduction_&_Prerequisites" target='_self'>Week 1: Introduction & Prerequisites</a>
-##### <a href="Week_2_-_Workflow_Orchestration" target='_self'>Week 2: Workflow Orchestration</a>
-##### <a href="Week_3_-_Data_Warehouse" target='_self'>Week 3: Data Warehouse</a>
-##### <a href="Week_4_-_Analytics_Engineering" target='_self'>Week 4: Analytics Engineering</a>
-##### <a href="Week_5_-_Batch_processing" target='_self'>Week 5: Batch Processing</a>
-##### <a href="Week_6_-_Stream_Processing" target='_self'>Week 6: Stream Processing</a>
-##### <a href="Week_7_-_Project" target='_self'>Week 7: Project</a>
+##### <a href="Week_1_Introduction_&_Prerequisites" target='_self'>Week 1: Introduction & Prerequisites</a>
+##### <a href="Week_2_Workflow_Orchestration" target='_self'>Week 2: Workflow Orchestration</a>
+##### <a href="Week_3_Data_Warehouse" target='_self'>Week 3: Data Warehouse</a>
+##### <a href="Week_4_Analytics_Engineering" target='_self'>Week 4: Analytics Engineering</a>
+##### <a href="Week_5_Batch_processing" target='_self'>Week 5: Batch Processing</a>
+##### <a href="Week_6_Stream_Processing" target='_self'>Week 6: Stream Processing</a>
+##### <a href="Week_7_Project" target='_self'>Week 7: Project</a>
 
 ---
 
