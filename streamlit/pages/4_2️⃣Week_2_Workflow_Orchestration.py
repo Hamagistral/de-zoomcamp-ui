@@ -147,3 +147,12 @@ Most of these notes are about Airflow, but you might find them useful.
 
 ##### 🖼️ Course UI was made by [Hamagistral](https://github.com/Hamagistral)
 """)
+
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+"""
+
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 

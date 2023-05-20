@@ -38,3 +38,12 @@ Special thanks to DataTalksClub for providing the DE Zoomcamp course and inspiri
 ### ⭐ Star the project on Github  <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
 
 If you liked the project please leave a star. """, unsafe_allow_html=True)
+
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+"""
+
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 

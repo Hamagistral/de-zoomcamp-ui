@@ -22,3 +22,12 @@ The data was copied from the [NYC TLC website](https://www1.nyc.gov/site/tlc/abo
 st.markdown("---")
 
 st.markdown("##### 🖼️ Course UI was made by [Hamagistral](https://github.com/Hamagistral)")
+
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+"""
+
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
