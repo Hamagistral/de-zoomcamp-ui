@@ -1,0 +1,72 @@
+import streamlit as st
+from hashlib import sha1
+import requests
+
+st.set_page_config(page_title="Certificate", page_icon='📜')
+
+def compute_hash(email):
+    return sha1(email.encode('utf-8')).hexdigest()
+
+def compute_certificate_id(email):
+    email_clean = email.lower().strip()
+    return compute_hash(email_clean + '_')
+
+
+st.markdown("""
+## 📜 Getting Your Certificate
+
+### 🎉 Congratulations on finishing the course! 🎈
+
+Here's a certificate example :""")
+
+st.image("https://i.postimg.cc/Y0sSShYg/certificate-dezoomcamp.png")
+
+st.markdown("#### Here's how you can get your certificate.")
+
+email_adress = st.text_input('First, enter your email adress :', placeholder="never.give.up@gmail.com", disabled=True)
+
+if st.button('Generate Certificate', disabled=True):
+    cohort = 2023
+    course = 'dezoomcamp'
+    id = compute_certificate_id(email_adress)
+    url = f"https://certificate.datatalks.club/{course}/{cohort}/{id}.pdf"
+
+    r = requests.get(url)
+
+    if r == 200:
+        pdf_display = F'<iframe src="{url}" width="700" type="application/pdf"></iframe>'
+
+        # Displaying File
+        st.markdown(pdf_display, unsafe_allow_html=True)
+        st.success(f"Certificate url : {url}")
+    else:
+        st.error("Couldn't generate your certificate.")
+
+st.error("Unfortunatly only students who took the course with the cohort are able to claim a certificate.")
+
+st.info("""    
+As mentionned in the FAQ :  
+
+**Can I follow the course in a self-paced mode and get a certificate?**
+               
+No, you can only get a certificate if you finish the course with the cohort. We don't award certificates for the self-paced mode.""")
+
+st.markdown("""## Adding to LinkedIn
+
+You can add your certificate to LinkedIn:
+
+* Log in to your LinkedIn account, then go to your profile.
+* On the right, in the "Add profile" section dropdown, choose "Background" and then select the drop-down triangle next to "Licenses & Certifications".
+* In "Name", enter "Data Engineering Zoomcamp".
+* In "Issuing Organization", enter "DataTalksClub".
+* (Optional) In "Issue Date", enter the time when the certificate was created.
+* (Optional) Select the checkbox This certification does not expire. 
+* Put your certificate ID.
+* In "Certification URL", enter the URL for your certificate.
+
+[Adapted from here](https://support.edx.org/hc/en-us/articles/206501938-How-can-I-add-my-certificate-to-my-LinkedIn-profile-)
+""")
+
+st.markdown("---")
+
+st.markdown("##### 🖼️ Course UI was made by [Hamagistral](https://github.com/Hamagistral)")
