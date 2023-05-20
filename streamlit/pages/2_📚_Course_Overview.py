@@ -80,10 +80,11 @@ Putting everything we learned to practice
 
 ---
 
-### 📝 Architecture diagram
+### 📝 Architecture diagram""", unsafe_allow_html=True)
 
-<img src="https://github.com/DataTalksClub/data-engineering-zoomcamp/raw/main/images/architecture/arch_2.png"/>
+st.image("https://github.com/DataTalksClub/data-engineering-zoomcamp/raw/main/images/architecture/arch_2.png")
 
+st.markdown("""
 ---
 
 ### 🛠️ Technologies
@@ -109,12 +110,10 @@ For this course, you'll need to have the following software installed on your co
 * Google Cloud SDK
 * Terraform
 
-See <a href="Week_1_Introduction_&_Prerequisites" target='_self'>Week 1</a> for more details about installing these tools
+See <a href="Week_1_Introduction_&_Prerequisites" target='_self'>Week 1</a> for more details about installing these tools""")
 
-> **Note:** NYC TLC changed the format of the data we use to parquet. But you can still access
-> the csv files [here](https://github.com/DataTalksClub/nyc-tlc-data).
+st.info("""**Note:** NYC TLC changed the format of the data we use to parquet. But you can still access the csv files [here](https://github.com/DataTalksClub/nyc-tlc-data).""")
 
----
+st.markdown("---")
 
-##### 🖼️ Course UI was made by [Hamagistral](https://github.com/Hamagistral)
-""", unsafe_allow_html=True)
+st.markdown("##### 🖼️ Course UI was made by [Hamagistral](https://github.com/Hamagistral)")

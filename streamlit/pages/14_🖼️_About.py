@@ -29,7 +29,7 @@ This UI is created by a student as a personal project to facilitate personal lea
 
 ### 📨 Feedback
 
-Your feedback is valuable! If you encounter any issues, have suggestions for improvements, or would like to contribute to this project, please see the [project repository](https://github.com/Hamagistral/de-zoomcamp-ui/issues).
+Your feedback is valuable! If you encounter any issues, have suggestions for improvements, or would like to contribute to this project, please post an issue in the [project repository](https://github.com/Hamagistral/de-zoomcamp-ui/issues).
 
 ### 👨‍🏫 Acknowledgements
 
