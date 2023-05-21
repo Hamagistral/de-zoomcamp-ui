@@ -42,6 +42,7 @@ if st.button('Generate Certificate'):
         st.markdown(pdf_display, unsafe_allow_html=True)
         st.success(f"✨ Certificate url : {url}")
     else:
+        st.info(f"Certificate URL : {url}")
         st.error("Error. Couldn't generate your certificate. Did you complete the course with the 2023 cohort ?")
 
 st.error("Unfortunatly only students who took the course with the cohort are able to claim a certificate.")
