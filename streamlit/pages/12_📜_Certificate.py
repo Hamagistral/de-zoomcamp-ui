@@ -23,9 +23,11 @@ st.image("https://i.postimg.cc/Y0sSShYg/certificate-dezoomcamp.png")
 
 st.markdown("#### Here's how you can get your certificate.")
 
-email_adress = st.text_input('First, enter your email adress :', placeholder="never.give.up@gmail.com", disabled=True)
+st.info("You're able to claim your certificate only if you have completed the course with the 2023 cohort.")
 
-if st.button('Generate Certificate', disabled=True):
+email_adress = st.text_input('First, enter your email adress :', placeholder="never.give.up@gmail.com")
+
+if st.button('Generate Certificate'):
     cohort = 2023
     course = 'dezoomcamp'
     id = compute_certificate_id(email_adress)
@@ -38,9 +40,9 @@ if st.button('Generate Certificate', disabled=True):
 
         # Displaying File
         st.markdown(pdf_display, unsafe_allow_html=True)
-        st.success(f"Certificate url : {url}")
+        st.success(f"✨ Certificate url : {url}")
     else:
-        st.error("Couldn't generate your certificate.")
+        st.error("Error. Couldn't generate your certificate. Did you complete the course with the 2023 cohort ?")
 
 st.error("Unfortunatly only students who took the course with the cohort are able to claim a certificate.")
 
