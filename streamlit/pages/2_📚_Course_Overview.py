@@ -110,7 +110,7 @@ For this course, you'll need to have the following software installed on your co
 * Google Cloud SDK
 * Terraform
 
-See <a href="Week_1_Introduction_&_Prerequisites" target='_self'>Week 1</a> for more details about installing these tools""")
+See <a href="Week_1_Introduction_&_Prerequisites" target='_self'>Week 1</a> for more details about installing these tools""", unsafe_allow_html=True)
 
 st.info("""**Note:** NYC TLC changed the format of the data we use to parquet. But you can still access the csv files [here](https://github.com/DataTalksClub/nyc-tlc-data).""")
 
