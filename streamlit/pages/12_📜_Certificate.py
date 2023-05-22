@@ -33,16 +33,7 @@ if st.button('Generate Certificate'):
     id = compute_certificate_id(email_adress)
     url = f"https://certificate.datatalks.club/{course}/{cohort}/{id}.pdf"
 
-    r = requests.get(url)
-
-    if r == 200:
-        pdf_display = F'<iframe src="{url}" width="700" type="application/pdf"></iframe>'
-
-        # Displaying File
-        st.markdown(pdf_display, unsafe_allow_html=True)
-        st.success(f"✨ Certificate url : {url}")
-    else:
-        st.error("Error. Couldn't generate your certificate. Did you complete the course with the 2023 cohort ?")
+    st.success(f"✨ Certificate url : {url}")
 
 st.markdown("---")
 
