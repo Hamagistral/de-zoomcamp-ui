@@ -23,7 +23,7 @@ st.image("https://i.postimg.cc/Y0sSShYg/certificate-dezoomcamp.png")
 
 st.markdown("#### Here's how you can get your certificate.")
 
-st.info("You're able to claim your certificate only if you have completed the course with the 2023 cohort.")
+st.info("You're only able to claim your certificate if you have completed the course with the 2023 cohort.")
 
 email_adress = st.text_input('First, enter your email adress :', placeholder="never.give.up@gmail.com")
 
