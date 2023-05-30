@@ -21,7 +21,7 @@
 ![home](https://github.com/Hamagistral/de-zoomcamp-ui/assets/66017329/c24799d2-5c4b-4f14-9d85-78d09ab975ee)
 
 
-### 🎯 Motivation :
+## 🎯 Motivation :
 
 The DE Zoomcamp UI project was born out of the need for a more accessible and organized learning experience for the **DE Zoomcamp Course by DataTalksClub**. As a student eager to dive into data engineering and learn modern technologies like Google Cloud, Docker, Terraform, Prefect, Spark, Kafka and more, I found it tiring to navigate through the course materials on GitHub and YouTube. Inspired by the clean and intuitive UI of CS50, I decided to create a simplified interface that brings together all the course resources in one place. This streamlit app aims to provide a user-friendly and streamlined experience, making it easier for learners like me to explore the course, answer homework questions directly in the app, and gain hands-on experience with data engineering technologies. By sharing this project, I hope to help others on their journey to becoming skilled data engineers.
 
