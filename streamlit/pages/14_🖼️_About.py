@@ -6,7 +6,7 @@ st.markdown("## 🖼️ About this app")
 
 st.markdown("This streamlit app is a user-friendly interface designed by [Hamagistral](https://github.com/Hamagistral) to enhance your learning experience for the **DE Zoomcamp 2023** course offered by [DataTalksClub.](https://datatalks.club/)")
 
-st.image("https://media.licdn.com/dms/image/C4E22AQGh-4ob7qd4JQ/feedshare-shrink_800/0/1664348413663?e=1687392000&v=beta&t=EbnXQ0kGP2whaqg0pTZBPyT_KzZILkkfgUjPXK8wa1I")
+st.image("https://i.ytimg.com/vi/bkJZDmreIpA/maxresdefault.jpg")
 
 st.markdown("""
 ### 📚 Course Description
