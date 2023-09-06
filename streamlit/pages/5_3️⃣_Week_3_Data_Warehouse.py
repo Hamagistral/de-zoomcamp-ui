@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Week 3", page_icon='3️⃣')
+st.set_page_config(page_title="Week 3", layout="wide", page_icon='3️⃣')
 
 st.markdown("## Week 3️⃣: Data Warehouse and BigQuery")
 

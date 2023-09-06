@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Week 4", page_icon='4️⃣')
+st.set_page_config(page_title="Week 4", layout="wide", page_icon='4️⃣')
 
 st.markdown("##  Week 4️⃣: Analytics Engineering")
 

@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Week 5", page_icon='5️⃣')
+st.set_page_config(page_title="Week 5", layout="wide", page_icon='5️⃣')
 
 st.markdown("##  Week 5️⃣: Batch Processing")
 
