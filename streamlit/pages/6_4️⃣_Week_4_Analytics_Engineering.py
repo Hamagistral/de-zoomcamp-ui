@@ -4,6 +4,13 @@ st.set_page_config(page_title="Week 4", layout="wide", page_icon='4️⃣')
 
 st.markdown("##  Week 4️⃣: Analytics Engineering")
 
+st.markdown("---")
+
+st.markdown("""### ⭐ If you are enjoying your learning experience please leave a Star <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
+
 st.success("""
 - Goal: Transforming the data loaded in DWH to Analytical Views developing a [dbt project](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_4_analytics_engineering/taxi_rides_ny/README.md).
 - [Slides](https://docs.google.com/presentation/d/1xSll_jv0T8JF4rYZvLHfkJXYqUjPtThA/edit?usp=sharing&ouid=114544032874539580154&rtpof=true&sd=true)
@@ -23,6 +30,7 @@ st.info("""_Note:_
   *  _A quick hack has been shared to load that data quicker, check instructions in [week3/extras](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_3_data_warehouse/extras)_
   * _If you recieve an error stating "Permission denied while globbing file pattern." when attemting to run fact_trips.sql this video may be helpful in resolving the issue_ 
 """)
+
 
 st.video("https://www.youtube.com/watch?v=kL3ZVNL9Y4A")
 

@@ -4,6 +4,13 @@ st.set_page_config(page_title="Week 5", layout="wide", page_icon='5️⃣')
 
 st.markdown("##  Week 5️⃣: Batch Processing")
 
+st.markdown("---")
+
+st.markdown("""### ⭐ If you are enjoying your learning experience please leave a Star <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
+
 st.markdown("## 1. Introduction")
 
 st.markdown("### 1.1. Introduction to Batch Processing")

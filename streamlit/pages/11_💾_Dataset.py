@@ -2,6 +2,11 @@ import streamlit as st
 
 st.set_page_config(page_title="Dataset", page_icon='💾')
 
+st.markdown("""### ⭐ If you are enjoying your learning experience please leave a Star <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
+
 st.markdown("""
 
 # NYC TLC Data 

@@ -16,6 +16,13 @@ Confluent cloud provides a free 30 days trial for, you can signup [here](https:/
 
 st.success("- [Slides](https://docs.google.com/presentation/d/1bCtdCba8v1HxJ_uMm9pwjRUC-NAMeB-6nOG2ng3KujA/edit?usp=sharing)")
 
+st.markdown("---")
+
+st.markdown("""### ⭐ If you are enjoying your learning experience please leave a Star <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
+
 st.markdown("## 1. Introduction to Stream Processing")
 
 st.markdown("### 1.1. Introduction")

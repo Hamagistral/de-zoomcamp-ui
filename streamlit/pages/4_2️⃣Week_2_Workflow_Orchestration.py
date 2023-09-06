@@ -13,6 +13,13 @@ Python code from videos is linked [below](https://github.com/discdiver/prefect-z
 Also, if you find the commands too small to view in Kalise's videos, here's the [transcript with code for the second Prefect video](https://github.com/discdiver/prefect-zoomcamp/tree/main/flows/01_start) and the [fifth Prefect video](https://github.com/discdiver/prefect-zoomcamp/tree/main/flows/03_deployments).
 """)
 
+st.markdown("---")
+
+st.markdown("""### ⭐ If you are enjoying your learning experience please leave a Star <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
+
 st.markdown("### 1. Data Lake (GCS)")
 
 st.video("https://www.youtube.com/watch?v=W3Zm6rjOq70&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb")

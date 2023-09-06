@@ -18,6 +18,11 @@ if you have troubles setting up the environment and following along with the vid
 
 st.markdown("---")
 
+st.markdown("""### ⭐ If you are enjoying your learning experience please leave a Star <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
+
 st.info("💻 Docker + Postgres [Code](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_1_basics_n_setup/2_docker_sql)")
 
 st.markdown("### 1. Introduction to Docker")

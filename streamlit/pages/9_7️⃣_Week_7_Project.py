@@ -13,6 +13,11 @@ Remember that to pass the project, you must evaluate 3 peers. If you don't do th
 * [2023 Projects](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/project.md)
 * [2022 Projects](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2022/project.md)""")
 
+st.markdown("---")
+
+st.markdown("""### ⭐ If you are enjoying your learning experience please leave a Star <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
+""", unsafe_allow_html=True)
+
 st.markdown("""
 ---
 

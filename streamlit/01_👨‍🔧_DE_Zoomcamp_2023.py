@@ -109,9 +109,13 @@ Thanks to the course sponsors for making it possible to create this course
 
 #
 Do you want to support our course and our community? Please reach out to [alexey@datatalks.club](alexey@datatalks.club)
-
+            
 ---
+            
+### ⭐ Star the project on Github  <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
 
+If you liked the project please leave a star. 
+            
 ##### 🖼️ Course UI was made by [Hamagistral](https://github.com/Hamagistral) 
 
 """, unsafe_allow_html=True)
