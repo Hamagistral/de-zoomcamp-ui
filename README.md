@@ -4,7 +4,7 @@
       <summary><h1 style="display: inline-block;">👨‍🔧 Data Engineering Zoocamp UI 🎨</h1></summary>
     </ul>
   </div>
-  
+
   <p>An Interactive UI for the DE Zoomcamp Course provided by DataTalksClub</p>
     <a href="https://dezoomcamp.streamlit.app/" target="_blank">Demo</a>
     🌌
@@ -21,7 +21,7 @@
 ![home](https://github.com/Hamagistral/de-zoomcamp-ui/assets/66017329/c24799d2-5c4b-4f14-9d85-78d09ab975ee)
 
 
-## 🎯 Motivation :
+## 🎯 Motivation
 
 The DE Zoomcamp UI project was born out of the need for a more accessible and organized learning experience for the **DE Zoomcamp Course by DataTalksClub**. As a student eager to dive into data engineering and learn modern technologies like Google Cloud, Docker, Terraform, Prefect, Spark, Kafka and more, I found it tiring to navigate through the course materials on GitHub and YouTube. Inspired by the clean and intuitive UI of CS50, I decided to create a simplified interface that brings together all the course resources in one place. This streamlit app aims to provide a user-friendly and streamlined experience, making it easier for learners like me to explore the course, answer homework questions directly in the app, and gain hands-on experience with data engineering technologies. By sharing this project, I hope to help others on their journey to becoming skilled data engineers.
 
@@ -41,7 +41,7 @@ Special thanks to DataTalksClub for providing the DE Zoomcamp course and inspiri
 
 ## 🛠️ Technologies Used
 
-This simlpe UI was built using Streamlit.
+This simple UI was built using Streamlit.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 <img src="https://user-images.githubusercontent.com/66017329/223900076-e1d5c1e5-7c4d-4b73-84e7-ae7d66149bc6.png" alt="streamlit" width="120">
