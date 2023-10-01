@@ -5,7 +5,7 @@ st.set_page_config(page_title="Week 3", layout="wide", page_icon='3️⃣')
 st.markdown("## Week 3️⃣: Data Warehouse and BigQuery")
 
 st.success("""
-- [Slides](https://docs.google.com/presentation/d/1a3ZoBAXFk8-EhUsd7rAZd-5p_HpltkzSeujjRGB2TAI/edit?usp=sharing)  
+- [Slides](https://docs.google.com/presentation/d/1a3ZoBAXFk8-EhUsd7rAZd-5p_HpltkzSeujjRGB2TAI/edit?usp=sharing)
 - [Big Query basic SQL](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_3_data_warehouse/big_query.sql)
 """)
 
@@ -34,9 +34,15 @@ st.video("https://youtu.be/k81mLJVX08w")
 
 st.markdown("---")
 
+st.markdown("### 4. BigQuery Internals")
+
+st.video("https://youtu.be/eduHi1inM4s")
+
+st.markdown("---")
+
 st.info("##### Advanced")
 
-st.markdown("### 4. BigQuery Machine Learning")
+st.markdown("### 5. BigQuery Machine Learning")
 
 st.video("https://youtu.be/B-WtpB0PuG4")
 
@@ -55,13 +61,13 @@ st.markdown("---")
 
 st.info("##### Deploying ML model")
 
-st.markdown("### 5. BigQuery Machine Learning Deployment")
+st.markdown("### 6. BigQuery Machine Learning Deployment")
 
 st.video("https://youtu.be/BjARzEWaznU")
 
 st.markdown("---")
 
-st.markdown("### 6. BigQuery Machine Learning Deployment")
+st.markdown("### 7. BigQuery Machine Learning Deployment")
 
 st.video("https://youtu.be/BjARzEWaznU")
 
@@ -83,7 +89,7 @@ st.markdown("""
 
 * [Notes by Alvaro Navas](https://github.com/ziritrion/dataeng-zoomcamp/blob/main/notes/3_data_warehouse.md)
 * [Isaac Kargar's blog post](https://kargarisaac.github.io/blog/data%20engineering/jupyter/2022/01/30/data-engineering-w3.html)
-* [Marcos Torregrosa's blog post](https://www.n4gash.com/2023/data-engineering-zoomcamp-semana-3/) 
+* [Marcos Torregrosa's blog post](https://www.n4gash.com/2023/data-engineering-zoomcamp-semana-3/)
 * [Notes by Victor Padilha](https://github.com/padilha/de-zoomcamp/tree/master/week3)
 * [Notes from Xia He-Bleinagel](https://xiahe-bleinagel.com/2023/02/week-3-data-engineering-zoomcamp-notes-data-warehouse-and-bigquery/)
 * [Bigger picture summary on Data Lakes, Data Warehouses, and tooling](https://medium.com/@verazabeida/zoomcamp-week-4-b8bde661bf98), by Vera
@@ -103,4 +109,4 @@ footer {visibility: hidden;}
 </style>
 """
 
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
