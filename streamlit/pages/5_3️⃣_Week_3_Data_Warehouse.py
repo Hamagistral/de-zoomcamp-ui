@@ -22,19 +22,13 @@ st.video("https://youtu.be/jrHljAoD6nM")
 
 st.markdown("---")
 
-st.markdown("### 2. Partitoning and clustering")
-
-st.video("https://youtu.be/jrHljAoD6nM")
-
-st.markdown("---")
-
-st.markdown("### 3. Partioning vs Clustering")
+st.markdown("### 2. Partioning vs Clustering")
 
 st.video("https://youtu.be/-CqXf7vhhDs")
 
 st.markdown("---")
 
-st.markdown("### 4. BigQuery Best Practices")
+st.markdown("### 3. BigQuery Best Practices")
 
 st.video("https://youtu.be/k81mLJVX08w")
 
@@ -42,7 +36,7 @@ st.markdown("---")
 
 st.info("##### Advanced")
 
-st.markdown("### 5. BigQuery Machine Learning")
+st.markdown("### 4. BigQuery Machine Learning")
 
 st.video("https://youtu.be/B-WtpB0PuG4")
 
@@ -61,13 +55,13 @@ st.markdown("---")
 
 st.info("##### Deploying ML model")
 
-st.markdown("### 6. BigQuery Machine Learning Deployment")
+st.markdown("### 5. BigQuery Machine Learning Deployment")
 
 st.video("https://youtu.be/BjARzEWaznU")
 
 st.markdown("---")
 
-st.markdown("### 7. BigQuery Machine Learning Deployment")
+st.markdown("### 6. BigQuery Machine Learning Deployment")
 
 st.video("https://youtu.be/BjARzEWaznU")
 
