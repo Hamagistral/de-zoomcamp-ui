@@ -2,6 +2,10 @@ import streamlit as st
 
 st.set_page_config(page_title="Data Engineering Zoomcamp 2023", page_icon='👨‍🔧')
 
+st.error("##### 🚨 New cohort of Data Engineering Zoomcamp will start on January 15, 2024! ")
+
+st.info("###### 👉🏻 You can find more information about the course [here](https://datatalks.club/blog/data-engineering-zoomcamp.html). If you’re ready to join, sign up [here](https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD).")
+
 st.markdown("### 👨‍🔧 Data Engineering Zoomcamp 2023 by [DataTalksClub](https://datatalks.club/)")
 
 st.image("https://pbs.twimg.com/media/FmmYA2YWYAApPRB.png")
@@ -10,10 +14,10 @@ st.info("Original Course Repository on [Github](https://github.com/DataTalksClub
 
 st.markdown("---")
 
-with st.expander("Sign up here"):
+with st.expander("Sign up here for 2024 Cohort"):
     st.markdown("""
     
-    <a href="https://airtable.com/shr6oVXeQvSI5HuWD"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+    <a href="https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
 
     #
 
@@ -24,6 +28,8 @@ with st.expander("Sign up here"):
     - [Frequently asked technical questions](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit?usp=sharing)
         
     #""", unsafe_allow_html=True)
+
+st.markdown("---")
 
 st.markdown("""
 ## 📄 Syllabus
@@ -41,6 +47,12 @@ st.markdown("""
 ## 👨‍🎓 Taking the course
 
 ####
+
+##### 👨‍👦‍👦 2024 Cohort
+
+* **Start**: 15 January 2024 
+* **Registration link**: https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD 
+
 
 ##### 👥 2023 Cohort
 
@@ -112,9 +124,7 @@ Do you want to support our course and our community? Please reach out to [alexey
             
 ---
             
-### ⭐ Star the project on Github  <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
-
-If you liked the project please leave a star. 
+### ⭐ Star the project on Github  <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>   
             
 ##### 🖼️ Course UI was made by [Hamagistral](https://github.com/Hamagistral) 
 
