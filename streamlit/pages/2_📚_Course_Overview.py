@@ -8,7 +8,7 @@ st.video("https://www.youtube.com/watch?v=-zpVha7bw5A")
 
 st.markdown("---")
 
-st.markdown("""## 📄 Syllabus
+st.markdown("""### 📄 Syllabus
 
 
 #### <a href="Week_1_Introduction_&_Prerequisites" target='_self'>Week 1: Introduction & Prerequisites</a>

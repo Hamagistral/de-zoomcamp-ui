@@ -2,6 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="Data Engineering Zoomcamp 2023", page_icon='👨‍🔧')
 
+st.write("#")
+
 st.error("##### 🚨 New cohort of Data Engineering Zoomcamp will start on January 15, 2024! ")
 
 st.info("###### 👉🏻 You can find more information about the course [here](https://datatalks.club/blog/data-engineering-zoomcamp.html). If you’re ready to join, sign up [here](https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD).")
@@ -32,7 +34,7 @@ with st.expander("Sign up here for 2024 Cohort"):
 st.markdown("---")
 
 st.markdown("""
-## 📄 Syllabus
+### 📄 Syllabus
 
 ##### <a href="Week_1_Introduction_&_Prerequisites" target='_self'>Week 1: Introduction & Prerequisites</a>
 ##### <a href="Week_2_Workflow_Orchestration" target='_self'>Week 2: Workflow Orchestration</a>
@@ -44,7 +46,7 @@ st.markdown("""
 
 ---
 
-## 👨‍🎓 Taking the course
+### 👨‍🎓 Taking the course
 
 ####
 
