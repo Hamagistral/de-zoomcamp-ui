@@ -1,8 +1,7 @@
 import streamlit as st
+from st_pages import add_page_title
 
-st.set_page_config(page_title="Week 6", layout="wide", page_icon='6️⃣')
-
-st.markdown("##  Week 6️⃣: Stream Processing")
+add_page_title(layout="wide")
 
 st.info("""
 ### Code structure

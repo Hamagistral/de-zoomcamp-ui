@@ -1,8 +1,11 @@
 import streamlit as st
+from st_pages import add_page_title
 
-from homework_quizzes import show_week1_a_quizz, show_week1_b_quizz, show_week2_quizz, show_week3_quizz, show_week4_quizz, show_workshop, show_week5_quizz, show_week6_quizz
+from homework_2023_questions import show_week1_a_quizz, show_week1_b_quizz, show_week2_quizz, show_week3_quizz, show_week4_quizz, show_workshop, show_week5_quizz, show_week6_quizz
 
 st.set_page_config(page_title="Homework Quizzes", page_icon='📝')
+
+add_page_title()
 
 choice = st.selectbox("Choose Homework Week", ('Week 1 (A)', 'Week 1 (B)', 'Week 2', 'Week 3', 'Week 4',  'Week 4 Workshop', 'Week 5', 'Week 6'))
 

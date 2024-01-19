@@ -1,8 +1,7 @@
 import streamlit as st
+from st_pages import add_page_title
 
-st.set_page_config(page_title="Week 2", layout="wide", page_icon='2️⃣')
-
-st.markdown("## Week 2️⃣: Workflow Orchestration")
+add_page_title(layout="wide")
 
 st.success("""
 > If you're looking for Airflow videos from the 2022 edition,

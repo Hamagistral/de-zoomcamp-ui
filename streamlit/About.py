@@ -1,10 +1,9 @@
 import streamlit as st
+from st_pages import add_page_title
 
-st.set_page_config(page_title="About", page_icon='🖼️')
+add_page_title()
 
-st.markdown("## 🖼️ About this app")
-
-st.markdown("This streamlit app is a user-friendly interface designed by [Hamagistral](https://github.com/Hamagistral) to enhance your learning experience for the **DE Zoomcamp 2023** course offered by [DataTalksClub.](https://datatalks.club/)")
+st.markdown("This streamlit app is a user-friendly interface designed by [Hamagistral](https://github.com/Hamagistral) to enhance your learning experience for the **DE Zoomcamp** course offered by [DataTalksClub.](https://datatalks.club/)")
 
 st.image("https://i.ytimg.com/vi/bkJZDmreIpA/maxresdefault.jpg")
 

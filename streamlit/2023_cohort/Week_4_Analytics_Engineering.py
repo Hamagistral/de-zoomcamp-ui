@@ -1,8 +1,7 @@
 import streamlit as st
+from st_pages import add_page_title
 
-st.set_page_config(page_title="Week 4", layout="wide", page_icon='4️⃣')
-
-st.markdown("##  Week 4️⃣: Analytics Engineering")
+add_page_title(layout="wide")
 
 st.markdown("---")
 

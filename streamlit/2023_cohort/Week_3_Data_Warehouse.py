@@ -1,8 +1,7 @@
 import streamlit as st
+from st_pages import add_page_title
 
-st.set_page_config(page_title="Week 3", layout="wide", page_icon='3️⃣')
-
-st.markdown("## Week 3️⃣: Data Warehouse and BigQuery")
+add_page_title(layout="wide")
 
 st.success("""
 - [Slides](https://docs.google.com/presentation/d/1a3ZoBAXFk8-EhUsd7rAZd-5p_HpltkzSeujjRGB2TAI/edit?usp=sharing)
@@ -65,13 +64,7 @@ st.markdown("### 6. BigQuery Machine Learning Deployment")
 
 st.video("https://youtu.be/BjARzEWaznU")
 
-st.markdown("---")
-
-st.markdown("### 7. BigQuery Machine Learning Deployment")
-
-st.video("https://youtu.be/BjARzEWaznU")
-
-st.markdown("[Steps to extract and deploy model with docker](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_3_data_warehouse/extract_model.md)")
+st.info("- [Steps to extract and deploy model with docker](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_3_data_warehouse/extract_model.md)")
 
 st.markdown("---")
 

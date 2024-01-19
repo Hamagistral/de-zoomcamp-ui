@@ -1,8 +1,7 @@
 import streamlit as st
+from st_pages import add_page_title
 
-st.set_page_config(page_title="Week 1", layout="wide", page_icon='1️⃣')
-
-st.markdown("## Week 1️⃣ : Introduction")
+add_page_title(layout="wide")
 
 st.success("""
 * [Slides](https://www.slideshare.net/AlexeyGrigorev/data-engineering-zoomcamp-introduction)

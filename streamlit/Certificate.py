@@ -1,8 +1,6 @@
 import streamlit as st
 from hashlib import sha1
-import requests
-
-st.set_page_config(page_title="Certificate", page_icon='📜')
+from st_pages import add_page_title
 
 def compute_hash(email):
     return sha1(email.encode('utf-8')).hexdigest()
@@ -11,10 +9,9 @@ def compute_certificate_id(email):
     email_clean = email.lower().strip()
     return compute_hash(email_clean + '_')
 
+add_page_title()
 
 st.markdown("""
-## 📜 Getting Your Certificate
-
 ### 🎉 Congratulations on finishing the course! 🎈
 
 Here's a certificate example :""")

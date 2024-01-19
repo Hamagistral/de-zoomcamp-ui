@@ -1,6 +1,9 @@
 import streamlit as st
+from st_pages import add_page_title
 
 st.set_page_config(page_title="FAQ", page_icon='❔')
+
+add_page_title()
 
 st.markdown("""### ⭐ If you are enjoying your learning experience please leave a Star <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
 """, unsafe_allow_html=True)

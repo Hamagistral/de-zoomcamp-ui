@@ -1,8 +1,7 @@
 import streamlit as st
+from st_pages import add_page_title
 
-st.set_page_config(page_title="Week 7", layout="wide", page_icon='7️⃣')
-
-st.markdown("##  Week 7️⃣: Course Project")
+add_page_title(layout="wide")
 
 st.info("""
 The goal of this project is to apply everything we learned
