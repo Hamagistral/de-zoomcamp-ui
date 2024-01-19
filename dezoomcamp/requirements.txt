@@ -1,4 +1,4 @@
 requests==2.27.1
 streamlit==1.22.0
 streamlit_book==0.7.5
-st_pages
+st-pages
