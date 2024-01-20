@@ -10,7 +10,7 @@ st.markdown("---")
 
 st.markdown("""
 
-# 💾 NYC TLC Data 
+## 💾 NYC TLC Data 
 
 Backup for NYC TLC data for the [DE Zoomcamp course](https://github.com/DataTalksClub/data-engineering-zoomcamp/)
 

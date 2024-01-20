@@ -1,35 +1,35 @@
 import streamlit as st
 from st_pages import Page, Section, show_pages, add_page_title
 
-add_page_title(layout="wide")
+add_page_title()
 
 show_pages(
     [   
-        Page("DE_Zoomcamp.py", "DE Zoomcamp", "💻"),
+        Page("dezoomcamp/DE_Zoomcamp.py", "DE Zoomcamp", "💻"),
 
         # 2024 Content
         Section("DE Zoomcamp 2024", "🧙‍♂️"),
-        Page("2024_cohort/Course_Overview.py", "Course Overview", "📚", in_section=True),
-        Page("2024_cohort/Module_1_Introduction_&_Prerequisites.py", "Module 1 Introduction & Prerequisites", "1️⃣", in_section=True),
-        Page("2024_cohort/Module_2_Workflow_Orchestration.py", "Module 2 Workflow Orchestration", "2️⃣", in_section=True),
-        Page("2024_cohort/Module_3_Data_Warehouse.py", "Module 3 Data Warehouse and BigQuery", "3️⃣", in_section=True),
+        Page("dezoomcamp/2024_cohort/Course_Overview.py", "Course Overview", "📚", in_section=True),
+        Page("dezoomcamp/2024_cohort/Module_1_Introduction_&_Prerequisites.py", "Module 1 Introduction & Prerequisites", "1️⃣", in_section=True),
+        Page("dezoomcamp/2024_cohort/Module_2_Workflow_Orchestration.py", "Module 2 Workflow Orchestration", "2️⃣", in_section=True),
+        Page("dezoomcamp/2024_cohort/Module_3_Data_Warehouse.py", "Module 3 Data Warehouse and BigQuery", "3️⃣", in_section=True),
 
         # 2023 Content
         Section("DE Zoomcamp 2023", "👨‍🔧"),
-        Page("2023_cohort/Course_Overview.py", "Course Overview", "📚", in_section=True),
-        Page("2023_cohort/Week_1_Introduction_&_Prerequisites.py", "Week 1 Introduction & Prerequisites", "1️⃣", in_section=True),
-        Page("2023_cohort/Week_2_Workflow_Orchestration.py", "Week 2 Workflow Orchestration", "2️⃣", in_section=True),
-        Page("2023_cohort/Week_3_Data_Warehouse.py", "Week 3 Data Warehouse", "3️⃣", in_section=True),
-        Page("2023_cohort/Week_4_Analytics_Engineering.py", "Week 4 Analytics Engineering", "4️⃣", in_section=True),
-        Page("2023_cohort/Week_5_Batch _processing.py", "Week 5 Batch processing", "5️⃣", in_section=True),
-        Page("2023_cohort/Week_6_Stream_Processing.py", "Week 6 Stream Processing", "6️⃣", in_section=True),
-        Page("2023_cohort/Week_7_Project.py", "Week 7 Project", "7️⃣", in_section=True),
-        Page("2023_cohort/Homework_Quizzes.py", "Homework Quizzes", "📝", in_section=True),
+        Page("dezoomcamp/2023_cohort/Course_Overview.py", "Course Overview", "📚", in_section=True),
+        Page("dezoomcamp/2023_cohort/Week_1_Introduction_&_Prerequisites.py", "Week 1 Introduction & Prerequisites", "1️⃣", in_section=True),
+        Page("dezoomcamp/2023_cohort/Week_2_Workflow_Orchestration.py", "Week 2 Workflow Orchestration", "2️⃣", in_section=True),
+        Page("dezoomcamp/2023_cohort/Week_3_Data_Warehouse.py", "Week 3 Data Warehouse", "3️⃣", in_section=True),
+        Page("dezoomcamp/2023_cohort/Week_4_Analytics_Engineering.py", "Week 4 Analytics Engineering", "4️⃣", in_section=True),
+        Page("dezoomcamp/2023_cohort/Week_5_Batch _processing.py", "Week 5 Batch processing", "5️⃣", in_section=True),
+        Page("dezoomcamp/2023_cohort/Week_6_Stream_Processing.py", "Week 6 Stream Processing", "6️⃣", in_section=True),
+        Page("dezoomcamp/2023_cohort/Week_7_Project.py", "Week 7 Project", "7️⃣", in_section=True),
+        Page("dezoomcamp/2023_cohort/Homework_Quizzes.py", "Homework Quizzes", "📝", in_section=True),
         
-        Page("Dataset.py", "Dataset", icon="💾", in_section=False),
-        Page("Certificate.py", "Certificate", "📜", in_section=False),
-        Page("FAQ.py", "FAQ", "❔", in_section=False),
-        Page("About.py", "About", icon="🖼️", in_section=False),     
+        Page("dezoomcamp/Dataset.py", "Dataset", icon="💾", in_section=False),
+        Page("dezoomcamp/Certificate.py", "Certificate", "📜", in_section=False),
+        Page("dezoomcamp/FAQ.py", "FAQ", "❔", in_section=False),
+        Page("dezoomcamp/About.py", "About", icon="🖼️", in_section=False),     
     ]
 )
 
