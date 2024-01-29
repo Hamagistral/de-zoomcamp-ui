@@ -60,9 +60,15 @@ git clone https://github.com/hamagistral/de-zoomcamp-ui.git
 pip install -r requirements.txt
 ```
 
+3. Go to the `dezoomcamp` folder:
+
+```
+cd dezoomcamp/
+```
+
 3. Run the app:
 ```
-streamlit run 01_👨‍🔧_DE_Zoomcamp_2023.py
+streamlit run DE_Zoomcamp.py
 ```
 
 4. Access the app in your browser at http://localhost:8501
