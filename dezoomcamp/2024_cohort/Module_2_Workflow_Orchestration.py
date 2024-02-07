@@ -82,7 +82,7 @@ We'll cover both writing _partitioned_ and _unpartitioned_ data to GCS and discu
 st.markdown("### 4.1. Configuring GCP")
 st.video("https://www.youtube.com/watch?v=00LP360iYvE&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb")
 
-st.markdown("### 4.2. Writing an ETL Pipeline")
+st.markdown("### 4.2. ETL: API to GCS")
 st.video("https://www.youtube.com/watch?v=w0XmcASRUnc&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb")
 
 st.info("- [DTC Zoomcamp GCP Setup](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_1_basics_n_setup/1_terraform_gcp/2_gcp_overview.md)")
@@ -93,7 +93,7 @@ st.markdown("### 5. 🔍 ETL: GCS to BigQuery")
 
 st.markdown("Now that we've written data to GCS, let's load it into BigQuery. In this section, we'll walk through the process of using Mage to load our data from GCS to BigQuery. This closely mirrors a very common data engineering workflow: loading data from a data lake into a data warehouse.")
 
-st.markdown("### 5.1. Writing an ETL Pipeline")
+st.markdown("### 5.1. ETL: GCS to BigQuery")
 st.video("https://www.youtube.com/watch?v=JKp_uzM-XsM")
 
 st.markdown("---")

@@ -15,6 +15,13 @@ st.markdown("""
 * [FAQ](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit?usp=sharing)            
 
 ---
+            
+### 🏅 Course Leaderboard """)
+            
+st.info("You can find the course leaderboard [here](https://courses.datatalks.club/de-zoomcamp-2024/leaderboard)!")
+            
+st.markdown("""
+---
                
 ### 📄 Syllabus
 
@@ -38,9 +45,9 @@ st.markdown("""
 * Workflow orchestration with Mage
 * Homework
 
-#### <a href="Week%203%20Data%20Warehouse" target='_self'>Workshop 1: Data Ingestion</a>
+#### <a href="Workshop%201%20Data%20Ingestion" target='_self'>Workshop 1: Data Ingestion</a>
             
-#### <a href="Week%203%20Data%20Warehouse" target='_self'>Module 3: Data Warehouse</a>
+#### <a href="Module%203%20Data%20Warehouse" target='_self'>Module 3: Data Warehouse</a>
 
 * Data Warehouse
 * BigQuery
@@ -49,7 +56,7 @@ st.markdown("""
 * Internals of BigQuery
 * BigQuery Machine Learning
 
-#### <a href="Week%204%20Analytics%20Engineering" target='_self'>Module 4: Analytics engineering</a>
+#### <a href="Module%204%20Analytics%20Engineering" target='_self'>Module 4: Analytics engineering</a>
 
 * Basics of analytics engineering
 * dbt (data build tool)
@@ -60,7 +67,7 @@ st.markdown("""
 * Deployment to the cloud and locally
 * Visualizing the data with google data studio and metabase
 
-#### <a href="Week%205%20Batch%20processing" target='_self'>Module 5: Batch processing</a>
+#### <a href="#" target='_self'>Module 5: Batch processing</a>
 
 * Batch processing
 * What is Spark
@@ -68,7 +75,7 @@ st.markdown("""
 * Spark SQL
 * Internals: GroupBy and joins
 
-#### <a href="Week%206%20Stream%20Processing" target='_self'>Module 6: Streaming</a>
+#### <a href="#" target='_self'>Module 6: Streaming</a>
 
 * Introduction to Kafka
 * Schemas (avro)
@@ -76,9 +83,9 @@ st.markdown("""
 * Kafka Connect and KSQL
 
 
-#### <a href="Week%207%20Project" target='_self'>Workshop 2: Stream Processing with SQL</a>
+#### <a href="#" target='_self'>Workshop 2: Stream Processing with SQL</a>
             
-#### <a href="Week%207%20Project" target='_self'>Project</a>
+#### <a href="#" target='_self'>Project</a>
 
 Putting everything we learned to practice
 

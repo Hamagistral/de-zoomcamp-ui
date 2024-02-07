@@ -71,7 +71,7 @@ st.markdown("---")
 st.markdown("### 📝 Homework")
 
 st.info("""
-Not yet available.""")
+[Week 3 Homework](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/03-data-warehouse/homework.md)""")
 
 st.markdown("---")
 
