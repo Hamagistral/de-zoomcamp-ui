@@ -31,8 +31,8 @@ show_pages(
         Page("dezoomcamp/Dataset.py", "Dataset", icon="💾", in_section=False),
         Page("dezoomcamp/Certificate.py", "Certificate", "📜", in_section=False),
         Page("dezoomcamp/FAQ.py", "FAQ", "❔", in_section=False),
-        Page("dezoomcamp/About.py", "About", icon="🖼️", in_section=False),   
         Page("dezoomcamp/Contact.py", "Contact", icon="📩", in_section=False),   
+        Page("dezoomcamp/About.py", "About", icon="🖼️", in_section=False) 
     ]
 )
 
