@@ -1,5 +1,5 @@
 import streamlit as st
-from st_pages import Page, Section, show_pages, add_page_title
+from st_pages import Page, Section, show_pages, add_page_title, hide_pages
 
 add_page_title()
 
@@ -14,7 +14,7 @@ show_pages(
         Page("dezoomcamp/2024_cohort/Module_2_Workflow_Orchestration.py", "Module 2 Workflow Orchestration", "2️⃣", in_section=True),
         Page("dezoomcamp/2024_cohort/Workshop_1_Data_Ingestion.py", "Workshop 1 Data Ingestion", "🛠️", in_section=True),
         Page("dezoomcamp/2024_cohort/Module_3_Data_Warehouse.py", "Module 3 Data Warehouse and BigQuery", "3️⃣", in_section=True),
-        Page("dezoomcamp/2024_cohort/Module_4_Analytics_Engineering.py", "Module 4 Analytics Engineering", "4️⃣", in_section=True),
+        Page("dezoomcamp/2024_cohort/Module_4_Analytics_Engineering.py", "Module 4 Analytics Engineering", "4️⃣", in_section=True,),
 
         # 2023 Content
         Section("DE Zoomcamp 2023", "👨‍🔧"),
@@ -32,9 +32,12 @@ show_pages(
         Page("dezoomcamp/Certificate.py", "Certificate", "📜", in_section=False),
         Page("dezoomcamp/FAQ.py", "FAQ", "❔", in_section=False),
         Page("dezoomcamp/Contact.py", "Contact", icon="📩", in_section=False),   
+        Page("dezoomcamp/Contact_thanks.py", "Thank you!", icon="💌", in_section=False),   
         Page("dezoomcamp/About.py", "About", icon="🖼️", in_section=False) 
     ]
 )
+
+hide_pages("Thank you!")
 
 st.markdown("### 👨‍🔧 Data Engineering Zoomcamp by [DataTalksClub](https://datatalks.club/)")
 

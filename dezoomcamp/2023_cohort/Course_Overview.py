@@ -3,6 +3,8 @@ from st_pages import add_page_title
 
 add_page_title(layout="wide")
 
+st.markdown("#")
+
 st.markdown("### 👨‍🔧 Data Engineering Zoomcamp 2023 Cohort")
 
 st.video("https://www.youtube.com/watch?v=-zpVha7bw5A")
@@ -76,12 +78,7 @@ st.markdown("""### 📄 Syllabus
 
 Putting everything we learned to practice
 
-* Week 7: Working on your project
-
-
----
-
-### 📝 Architecture diagram""", unsafe_allow_html=True)
+* Week 7: Working on your project""", unsafe_allow_html=True)
 
 st.image("https://github.com/DataTalksClub/data-engineering-zoomcamp/raw/main/images/architecture/arch_2.png")
 
@@ -89,6 +86,7 @@ st.markdown("""
 ---
 
 ### 🛠️ Technologies
+            
 * **Google Cloud Platform (GCP)**: Cloud-based auto-scaling platform by Google
   * **Google Cloud Storage (GCS)**: Data Lake
   * **BigQuery**: Data Warehouse
