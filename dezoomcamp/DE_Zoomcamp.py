@@ -32,12 +32,12 @@ show_pages(
         Page("dezoomcamp/Certificate.py", "Certificate", "📜", in_section=False),
         Page("dezoomcamp/FAQ.py", "FAQ", "❔", in_section=False),
         Page("dezoomcamp/Contact.py", "Contact", icon="📩", in_section=False),   
-        Page("dezoomcamp/Contact_thanks.py", "Thank you!", icon="💌", in_section=False),   
+        Page("dezoomcamp/Contact_thanks.py", "Thank you"),   
         Page("dezoomcamp/About.py", "About", icon="🖼️", in_section=False) 
     ]
 )
 
-hide_pages(["Thank you!"])
+hide_pages(["Thank you"])
 
 st.markdown("### 👨‍🔧 Data Engineering Zoomcamp by [DataTalksClub](https://datatalks.club/)")
 
