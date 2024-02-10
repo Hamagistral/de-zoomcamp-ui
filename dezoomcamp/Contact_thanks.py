@@ -5,8 +5,6 @@ add_page_title()
 
 hide_pages(["Thank you"])
 
-st.set_page_config(page_title="Thank you", page_icon="💌")
-
 st.markdown("## Thank you for reaching out! 🙌🏻")
 
 st.markdown("Thank you for taking the time to provide your feedback. Your input is valuable to us.")

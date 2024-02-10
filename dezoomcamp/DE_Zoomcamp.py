@@ -32,7 +32,7 @@ show_pages(
         Page("dezoomcamp/Certificate.py", "Certificate", "📜", in_section=False),
         Page("dezoomcamp/FAQ.py", "FAQ", "❔", in_section=False),
         Page("dezoomcamp/Contact.py", "Contact", icon="📩", in_section=False),   
-        Page("dezoomcamp/Contact_thanks.py", "Thank you"),   
+        Page("dezoomcamp/Contact_thanks.py", "Thank you", icon="💌"),   
         Page("dezoomcamp/About.py", "About", icon="🖼️", in_section=False) 
     ]
 )
