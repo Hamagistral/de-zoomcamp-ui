@@ -18,7 +18,7 @@ contact_form = """
      <textarea name="message" placeholder="Your message here"></textarea>
      <input type="file" class="img_btn" name="Upload Image" accept="image/png, image/jpeg">
      <br>
-     <input type="hidden" name="_next" value="https://dezoomcamp.streamlit.app/Thank%20you!">
+     <input type="hidden" name="_next" value="https://dezoomcamp.streamlit.app/Thank%20you">
      <button type="submit">Send</button>
 </form>
 """
