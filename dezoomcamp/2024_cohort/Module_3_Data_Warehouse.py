@@ -1,7 +1,9 @@
 import streamlit as st
-from st_pages import add_page_title
+from st_pages import add_page_title, hide_pages
 
 add_page_title(layout="wide")
+
+hide_pages(["Thank you"])
 
 st.success("""
 - [Slides](https://docs.google.com/presentation/d/1a3ZoBAXFk8-EhUsd7rAZd-5p_HpltkzSeujjRGB2TAI/edit?usp=sharing)

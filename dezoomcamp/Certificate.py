@@ -1,6 +1,10 @@
 import streamlit as st
 from hashlib import sha1
-from st_pages import add_page_title
+from st_pages import add_page_title, hide_pages
+
+add_page_title()
+
+hide_pages(["Thank you"])
 
 def compute_hash(email):
     return sha1(email.encode('utf-8')).hexdigest()
@@ -8,8 +12,6 @@ def compute_hash(email):
 def compute_certificate_id(email):
     email_clean = email.lower().strip()
     return compute_hash(email_clean + '_')
-
-add_page_title()
 
 st.balloons()
 

@@ -1,7 +1,9 @@
 import streamlit as st
-from st_pages import add_page_title
+from st_pages import add_page_title, hide_pages
 
 add_page_title(layout="wide")
+
+hide_pages(["Thank you"])
 
 st.success("""
 * [Slides](https://www.slideshare.net/AlexeyGrigorev/data-engineering-zoomcamp-introduction)

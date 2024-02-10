@@ -1,9 +1,9 @@
 import streamlit as st
-from st_pages import add_page_title
+from st_pages import add_page_title, hide_pages
 
 add_page_title(layout="wide")
 
-st.markdown("---")
+hide_pages(["Thank you"])
 
 st.markdown("""### ⭐ If you are enjoying your learning experience please leave a Star <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
 """, unsafe_allow_html=True)

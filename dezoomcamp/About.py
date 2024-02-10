@@ -1,7 +1,9 @@
 import streamlit as st
-from st_pages import add_page_title
+from st_pages import add_page_title, hide_pages
 
 add_page_title()
+
+hide_pages(["Thank you"])
 
 st.markdown("This streamlit app is a user-friendly interface designed by [Hamagistral](https://github.com/Hamagistral) to enhance your learning experience for the **DE Zoomcamp** course offered by [DataTalksClub.](https://datatalks.club/)")
 
