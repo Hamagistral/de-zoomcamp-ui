@@ -11,4 +11,3 @@ st.info("We appreciate your contribution, we will review your ideas or address t
 st.toast('Your message was submitted successfully!', icon='💌')
 
 st.link_button("Get back to **learning** 👨🏻‍🎓", "https://dezoomcamp.streamlit.app/")
-st.balloons()

@@ -11,6 +11,8 @@ def compute_certificate_id(email):
 
 add_page_title()
 
+st.balloons()
+
 st.markdown("""
 ### 🎉 Congratulations on finishing the course! 🎈
 

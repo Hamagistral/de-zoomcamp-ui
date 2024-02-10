@@ -37,7 +37,7 @@ show_pages(
     ]
 )
 
-hide_pages(["Thank you"])
+hide_pages([Page("Thank you")])
 
 st.markdown("### 👨‍🔧 Data Engineering Zoomcamp by [DataTalksClub](https://datatalks.club/)")
 
