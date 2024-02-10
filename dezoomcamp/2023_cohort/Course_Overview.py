@@ -80,8 +80,6 @@ Putting everything we learned to practice
 
 * Week 7: Working on your project""", unsafe_allow_html=True)
 
-st.image("https://github.com/DataTalksClub/data-engineering-zoomcamp/raw/main/images/architecture/arch_2.png")
-
 st.markdown("""
 ---
 
