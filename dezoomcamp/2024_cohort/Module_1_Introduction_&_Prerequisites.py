@@ -24,7 +24,7 @@ st.markdown("""### ⭐ If you are enjoying your learning experience please leave
 
 st.markdown("---")
 
-st.info("💻 Docker + Postgres [Code](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_1_basics_n_setup/2_docker_sql)")
+st.info("💻 Docker + Postgres [Code](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/01-docker-terraform/2_docker_sql)")
 
 st.markdown("### 1. Introduction to Docker")
 
