@@ -5,8 +5,8 @@
     </ul>
   </div>
 
-  <p>An Interactive UI for the DE Zoomcamp Course provided by DataTalksClub</p>
-    <a href="https://dezoomcamp.streamlit.app/" target="_blank">Demo</a>
+  <p>An Interactive UI for the DE Zoomcamp Course provided by <a href="https://github.com/DataTalksClub" target="_blank">DataTalksClub</a></p>
+    <a href="https://dezoomcamp.streamlit.app/" target="_blank">Visit App</a>
     🌌
     <a href="https://github.com/Hamagistral/de-zoomcamp-ui/issues" target="_blank">Request Feature</a>
 </div>
@@ -18,12 +18,13 @@
 
 <hr>
 
-![home](https://github.com/Hamagistral/de-zoomcamp-ui/assets/66017329/c24799d2-5c4b-4f14-9d85-78d09ab975ee)
-
+![home-ui](https://github.com/Hamagistral/de-zoomcamp-ui/assets/66017329/ae4f5e3c-b577-4198-8d45-6a076c092ef4)
 
 ## 🎯 Motivation
 
-The DE Zoomcamp UI project was born out of the need for a more accessible and organized learning experience for the **DE Zoomcamp Course by DataTalksClub**. As a student eager to dive into data engineering and learn modern technologies like Google Cloud, Docker, Terraform, Prefect, Spark, Kafka and more, I found it tiring to navigate through the course materials on GitHub and YouTube. Inspired by the clean and intuitive UI of CS50, I decided to create a simplified interface that brings together all the course resources in one place. This streamlit app aims to provide a user-friendly and streamlined experience, making it easier for learners like me to explore the course, answer homework questions directly in the app, and gain hands-on experience with data engineering technologies. By sharing this project, I hope to help others on their journey to becoming skilled data engineers.
+The DE Zoomcamp UI project was born out of the need for a more accessible and organized learning experience for the [**DE Zoomcamp Course by DataTalksClub**](https://github.com/DataTalksClub/data-engineering-zoomcamp). As a student eager to dive into data engineering and learn modern technologies like Google Cloud, Docker, Terraform, Prefect, Spark, Kafka and more, I found it tiring to navigate through the course materials on GitHub and YouTube.  
+
+Inspired by the clean and intuitive UI of CS50, I decided to create a simplified interface that brings together all the course resources in one place. This streamlit app aims to provide a user-friendly and streamlined experience, making it easier for learners like me to explore the course, answer homework questions directly in the app, and gain hands-on experience with data engineering technologies. By sharing this project, I hope to help others on their journey to becoming skilled data engineers.
 
 ## 🚀 Features
 
