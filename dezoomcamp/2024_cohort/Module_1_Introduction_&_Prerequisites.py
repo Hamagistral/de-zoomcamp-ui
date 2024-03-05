@@ -100,7 +100,7 @@ st.info("""
 
 st.markdown("---")
 
-st.info("""💻 GCP + Terraform [Code](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_1_basics_n_setup/1_terraform_gcp)""")
+st.info("""💻 GCP + Terraform [Code](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/01-docker-terraform/1_terraform_gcp)""")
 
 st.markdown("### 1. Introduction to GCP (Google Cloud Platform)")
 
