@@ -75,9 +75,11 @@ Your dashboard should contain at least two tiles, we suggest you include:
 
 Ensure that your graph is easy to understand by adding references and titles.
  
-Example dashboard: ![image](https://user-images.githubusercontent.com/4315804/159771458-b924d0c1-91d5-4a8a-8c34-f36c25c31a3c.png)
+Example dashboard:""", unsafe_allow_html=True)
 
-### 👨‍🎓👩‍🎓 Peer reviewing""", unsafe_allow_html=True)
+st.image("https://user-images.githubusercontent.com/4315804/159771458-b924d0c1-91d5-4a8a-8c34-f36c25c31a3c.png")
+
+st.markdown("### 👨‍🎓👩‍🎓 Peer reviewing")
 
 st.info("""- To evaluate the projects, we'll use peer reviewing. This is a great opportunity for you to learn from each other.
 - To get points for your project, you need to evaluate 3 projects of your peers
