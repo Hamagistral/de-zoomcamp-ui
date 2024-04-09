@@ -83,7 +83,7 @@ st.video("https://www.youtube.com/watch?v=r1OuLdwxbRc")
 
 st.markdown("### 4.5. Kafka Ksqldb & Connect")
 
-st.video("https://www.youtube.com/watch?v=r1OuLdwxbRc")
+st.video("https://www.youtube.com/watch?v=DziQ4a4tn9Y")
 
 st.markdown("### 4.6. Kafka Schema registry")
 
