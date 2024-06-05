@@ -47,23 +47,19 @@ st.markdown("### 📈 Data Science Projects by [Chibudom Obasi](https://journeyg
 
 #st.image("https://pbs.twimg.com/media/FmmYA2YWYAApPRB.png")
 
-st.info("You can find me on [TikTok](https://tiktok.com/@mobile.desk)  [YouTube](https://www.youtube.com/c/Chibudomobasi?app=desktop&sub_confirmation=1) [Udemy](https://www.udemy.com/course/data-decoded/?referralCode=B51A455EEDEF74E4DB12)")
+st.info("You can find me on [TikTok](https://tiktok.com/@mobile.desk) |  [YouTube](https://www.youtube.com/c/Chibudomobasi?app=desktop&sub_confirmation=1) | [LinkedIn](https://www.linkedin.com/in/praise-obasi)")
 
 st.markdown("---")
 
-with st.expander("Sign up here for 2024 Cohort"):
+with st.expander("Sign up here for Data Decoded"):
     st.markdown("""
     
-    <a href="https://airtable.com/appzbS8Pkg9PL254a/shr6oVXeQvSI5HuWD"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+    <a href="https://www.udemy.com/course/data-decoded/?referralCode=B51A455EEDEF74E4DB12"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
 
     #
 
-    - Register in [DataTalks.Club's Slack](https://datatalks.club/slack.html)
-    - Join the [`#course-data-engineering`](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG) channel
-    - Join the [course Telegram channel with announcements](https://t.me/dezoomcamp)
-    - The videos are published on [DataTalks.Club's YouTube channel](https://www.youtube.com/c/DataTalksClub) in [the course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
-    - [Frequently asked technical questions](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit?usp=sharing)
-        
+    - Register and get amazing discounts
+    - The videos are published on [Chhibudom Obasi's YouTube channel](https://www.youtube.com/c/Chibudomobasi?app=desktop&sub_confirmation=1) 
     #""", unsafe_allow_html=True)
 
 st.markdown("""
