@@ -67,7 +67,8 @@ st.markdown("""
 
 ##### Write Ups
 
-Details about each projects are on my [portfolio](https://journeygenius.pythonanywhere.com/ml)
+Details about each projects are on my [portfolio](https://journeygenius.pythonanywhere.com/ml) .
+
 This site is used to display an interactive dashboard for each project.
 
 
