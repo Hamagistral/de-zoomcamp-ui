@@ -72,11 +72,10 @@ Details about each projects are on my [portfolio](https://journeygenius.pythonan
 This site is used to display an interactive dashboard for each project.
 
 
+)
 
-### 🔎 Overview""", unsafe_allow_html=True)
 
-
-st.image("https://raw.githubusercontent.com/DataTalksClub/data-engineering-zoomcamp/main/images/architecture/photo1700757552.jpeg")
+#st.image("https://raw.githubusercontent.com/DataTalksClub/data-engineering-zoomcamp/main/images/architecture/photo1700757552.jpeg")
 
 
 st.markdown("""
