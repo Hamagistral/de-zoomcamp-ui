@@ -43,11 +43,11 @@ show_pages(
 
 hide_pages(["Thank you"])
 
-st.markdown("### 👨‍🔧 Data Engineering Zoomcamp by [DataTalksClub](https://datatalks.club/)")
+st.markdown("### 📈 Data Science Projects by [Chibudom Obasi](https://journeygenius.pythonanywhere.com/ml)")
 
-st.image("https://pbs.twimg.com/media/FmmYA2YWYAApPRB.png")
+#st.image("https://pbs.twimg.com/media/FmmYA2YWYAApPRB.png")
 
-st.info("Original Course Repository on [Github](https://github.com/DataTalksClub/data-engineering-zoomcamp)")
+st.info("You can find me on [TikTok](https://tiktok.com/@mobile.desk)  [YouTube](https://www.youtube.com/c/Chibudomobasi?app=desktop&sub_confirmation=1) [Udemy](https://www.udemy.com/course/data-decoded/?referralCode=B51A455EEDEF74E4DB12)")
 
 st.markdown("---")
 
