@@ -59,28 +59,18 @@ with st.expander("Sign up here for Data Decoded"):
     #
 
     - Register and get amazing discounts
-    - The videos are published on [Chhibudom Obasi's YouTube channel](https://www.youtube.com/c/Chibudomobasi?app=desktop&sub_confirmation=1) 
+    - The videos are published on [Chibudom Obasi's YouTube channel](https://www.youtube.com/c/Chibudomobasi?app=desktop&sub_confirmation=1) 
     #""", unsafe_allow_html=True)
 
 st.markdown("""
-### 👨‍🎓 Taking the course
+### 👨‍🎓 About the projects
 
-##### 👨‍👦‍👦 2024 Cohort
+##### Write Ups
 
-* **Start**: 15 January 2024 (Monday) at 17:00 CET
-* **Registration link**: https://airtable.com/shr6oVXeQvSI5HuWD
-* [Cohort folder](cohorts/2024/) with homeworks and deadlines 
+Details about each projects are on my [portfolio](https://journeygenius.pythonanywhere.com/ml)
+This site is used to display an interactive dashboard for each project.
 
 
-##### 👨‍🔧 Self-paced mode
-
-All the materials of the course are freely available, so that you
-can take the course at your own pace
-
-* Follow the suggested syllabus (see below) week by week
-* You don't need to fill in the registration form. Just start watching the videos and join Slack
-* Check [FAQ](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit?usp=sharing) if you have problems
-* If you can't find a solution to your problem in FAQ, ask for help in Slack
 
 ### 🔎 Overview""", unsafe_allow_html=True)
 
