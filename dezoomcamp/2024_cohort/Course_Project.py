@@ -187,7 +187,7 @@ st.markdown("""### Project Attempt #1
 
 #### Project Attempt #2
 
-* Project: TBA
+* Project: https://courses.datatalks.club/de-zoomcamp-2024/project/project2
 * Review: TBA""")
 
 st.markdown("---")
